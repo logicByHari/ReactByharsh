@@ -32,3 +32,6 @@ export default function Navbar(props) {
 Navbar.prototype = {
     title: PropTypes.string
 }
+Navbar.defaultProps = {
+    title: "Harsh PWA"
+}
