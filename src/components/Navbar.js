@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 
@@ -29,9 +29,9 @@ export default function Navbar(props) {
     )
 }
 
-Navbar.prototype = {
-    title: PropTypes.string
-}
 Navbar.defaultProps = {
     title: "Harsh PWA"
+}
+Navbar.prototype = {
+    title: PropTypes.string
 }
